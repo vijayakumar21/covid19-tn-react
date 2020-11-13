@@ -1,0 +1,37 @@
+.navbar-brand {
+    float:none;
+}
+
+@media (min-width:961px) {
+ .navbar-brand {
+    transform: translateX(-50%);
+    left: 50%;
+    position: absolute;
+  }
+
+  /* DEMO example styles for logo image */
+  .navbar-brand {
+    padding: 0px;
+  }}
+
+  @media ( max-width:961px) {
+  .navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+}
+.navbar-brand {
+    transform: translateX(+100%);
+    /* left: 50%; */
+    position: block;
+  }
+
+.navbar .navbar-collapse {
+    text-align: center;
+}}
+.fa-sun{
+  color:#ffe05d;
+  font-size:1.2rem;
+}
+.fa-sun:hover{
+  color:#ffd31d
+}

@@ -1,0 +1,63 @@
+
+
+@media ( min-width:961px){
+.percent-row{
+    padding-top: 3.5rem;
+    
+    padding-left:1.1rem;
+}
+#middle{
+    margin-left:0rem;
+        margin-right:0rem;
+        text-align: center;
+        padding-right:4rem;
+}
+
+.overview-title{
+    font-family: Lato,sans-serif;
+    color:#686d76;
+    padding-bottom:2.2rem;
+    font-size: 1.75rem;
+
+}
+.middle-card{
+    padding-top:5rem;
+    
+ }
+ .place-name{
+     font-size: 1.8rem;
+     font-family: Lato,sans-serif;
+ }
+}
+
+@media ( max-width:960px){
+    .doughnut{
+    padding-top: 1.4rem;
+    }
+    .percent-row{
+        padding-top: 2rem;
+       
+    }
+    .middle-card {
+        padding-left:0rem;
+        padding-right:0rem;
+    }
+    .overview-title{
+        font-family: Lato,sans-serif;
+        color:#686d76;
+        font-size: 1.2rem;
+    }
+    .middle-card{
+        padding-top:2.3rem;
+     }
+     #middle{
+        margin-left:0rem;
+        margin-right:0rem;
+        text-align: center;
+    }
+    .place-name{
+        font-size: 1.3rem;
+        font-family: Lato,sans-serif;
+    }
+    
+}

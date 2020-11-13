@@ -1,0 +1,86 @@
+.tested
+{
+    color:#0779e4;
+   }
+   
+   .tested:hover
+   {
+   background-color:rgba(120, 175, 235, 0.3); 
+   }
+   .new
+{
+ padding-top: 3.5%;
+ padding-bottom: 3.5%;
+ filter:contrast(30%);
+
+}
+.active1{
+    color:#fa1616;
+   
+   }
+   .active1:hover
+   {
+     background-color:rgba(255, 170, 165, 0.3); 
+   }
+
+   .total:hover
+   {
+      background-color: rgba(255, 211, 182, 0.3);
+   }
+   .d {
+    background-color: 	#0D0F11;
+    text-align: center;
+  }
+  
+  .total{
+   color:#EB9734;
+   
+  }
+  .recovered{
+    color:#2EB259;
+    
+   
+   }
+   .recovered:hover
+   {
+     background-color:rgba(185, 230, 211, 0.3);
+   }
+   .deaths
+   {
+    color:#CF7BFD;
+   
+   }
+   .deaths:hover
+   {
+     background-color:rgba(232, 211, 255, 0.35); 
+   }
+
+   @media (min-width:961px) {
+    .center{
+        text-align: center;
+        border-radius: 10px;
+        padding: 2rem 0 ;
+        /* border:dotted 0.0000012rem; */
+        
+    }
+    
+  }
+ 
+   @media ( max-width:960px) {
+    .center{
+        text-align: center;
+        border-radius: 10px;
+        padding: 0.6rem 0 ;
+        margin:0 0.1 rem;
+        border-radius: 10px;
+    }
+    .curr{
+        font-size: 0.8rem ;
+    }
+    .title{
+        font-size: 0.7rem ;
+    }
+    .new{
+      font-size: 0.7rem ;
+    }
+  }

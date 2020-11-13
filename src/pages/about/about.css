@@ -1,0 +1,59 @@
+.about-page{
+    font-family: Lato, sans-serif;
+}
+@media (min-width:961px){
+
+.about-page{
+    padding:2.5rem 15rem;
+
+}
+.qn,.btm,.ans{
+    font-size: 1.3rem;
+}
+.qn{
+    margin-top:1.7rem;
+}
+.qn{
+    color:#7579e7;
+}
+.ans{
+    color:#f08a5d;
+}
+.btm{
+    color:#686d76;
+}
+.about-project{
+    text-align: center;
+    font-size: 1.8rem;
+    margin-bottom: 1.7rem;
+    color: #373a40;
+}
+
+}
+@media (max-width:800px){
+
+    .about-page{
+        padding:2.3rem 1.6rem;
+    
+    }
+    .qn,.btm,.ans{
+        font-size: 1.12rem;
+    }
+    .qn{
+        margin-top:1.55rem;
+    }
+    .qn{
+        color:#7579e7;
+    }
+    .ans{
+        color:#f08a5d;
+    }
+    .btm{
+        color:#686d76;
+    }
+    .about-project{
+    text-align: center;
+    margin-bottom: 1.8rem;
+}
+    
+}

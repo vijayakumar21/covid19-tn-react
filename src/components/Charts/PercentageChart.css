@@ -1,0 +1,26 @@
+.Active-percent h3{
+    color: rgba(250, 22, 22, 0.85);
+}
+.Deaths-percent h3{
+    color:rgba(207, 123, 253, 0.88);
+}
+.Recovered-percent h3{
+    color: rgba(46, 178, 89, 0.85);
+}
+@media ( min-width:960px){
+.percent-chart h3{
+    margin-top:1rem;
+    font-size: 1.4rem;
+    font-family: Lato,sans-serif;
+}
+}
+@media ( max-width:960px){
+    .percent-chart h3{
+        margin-top:0.4rem;
+        font-size: 0.85rem;
+        font-family: Lato,sans-serif;
+    }
+}
+.percent-chart p{
+    color:black;
+}

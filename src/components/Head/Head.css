@@ -1,0 +1,31 @@
+@media (min-width:961px) {
+.box{
+    margin-top:3.2rem;
+    
+
+}
+#row{
+    margin-left: 0;
+    margin-right: 0;
+    padding-left:8rem;
+    padding-right:8rem;
+}
+.extra{
+    padding-right:2.5rem;
+}
+
+
+}
+@media (max-width:960px){
+    .box{
+        margin-top:2rem;
+       
+    }
+    #row{
+        margin-left: 0;
+        margin-right: 0;
+        padding-left:0.35rem;
+        padding-right:0.35rem;
+    }
+}
+
