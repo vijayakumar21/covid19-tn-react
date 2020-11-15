@@ -1,0 +1,28 @@
+.Total-line{
+    background-color: rgba(255, 211, 182, 0.18); border-radius: 10px;
+}
+.Recovered-line{
+    background-color:rgba(185, 230, 211, 0.18); border-radius: 10px;
+}
+.Deaths-line{
+    background-color:rgba(232, 211, 255, 0.18); border-radius: 10px;
+ }
+ .Active-line{
+    background-color:rgba(255, 170, 165, 0.2); border-radius: 10px;
+ }
+ @media ( max-width:960px){
+    
+ }
+
+ @media ( min-width:961px){
+    #line-chart{
+        margin-top :2.5rem ;
+    }
+}
+@media ( max-width:960px){
+    #line-chart{
+        margin-top :0.8rem ;
+        /* height:200; */
+    }
+    
+}

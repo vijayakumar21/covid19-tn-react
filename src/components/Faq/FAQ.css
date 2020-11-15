@@ -1,18 +1,19 @@
 @media (min-width:961px) {.question{
     position: relative;
     margin: 2.5rem 15.5rem;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+    box-shadow: 0 2px 8px rgba(27, 27, 27, 0.26);
     border-radius: 10px;
     font-family: Lato, sans-serif;
     overflow: hidden;
-    background: white;
+    background: #292929;
+  
     
   }
   .faq-title {
     color:#8186d5;
     font-size: 1.2rem;
 }}
-  @media (max-width:800px){
+  @media (max-width:960px){
     .question{
         position: relative;
         margin: 1.5rem 2.2rem;
@@ -34,4 +35,20 @@
 
 .answer{
     color:#ed6663;
+}
+.go{
+  background-color:grey;
+}
+
+.dark-faq-question{
+  background:#1a1c20;
+}
+.dark-faq .card{
+  background:#1a1c20;
+}
+.dark-faq .collapse{
+  background-color:#202125;
+}
+.dark-faq .card-body{
+  background-color:#202125;
 }

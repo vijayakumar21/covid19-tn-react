@@ -2,6 +2,7 @@ import React from 'react';
 import FadeIn from 'react-fade-in';
 import Middle from '../../components/Card/Middle';
 import Head from '../../components/Head/Head';
+import BottomCard from '../../components/Card/BottomCard';
 import './Home.css'
 const Home=(props)=>{
   const theme=props.theme;
@@ -71,7 +72,7 @@ const Home=(props)=>{
     
     <Head data1={state} data2={state2} data3={state3} data4={state4} data5={state5}/>
     <Middle data={[88, 82,10]}/>
-    
+    <BottomCard/>
     </FadeIn> ;
     
 };

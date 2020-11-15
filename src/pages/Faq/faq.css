@@ -4,16 +4,24 @@
 }
 .faq-page h3{
     text-align: center;
+    
+}
+.light-faq  h3{
     color:#495464;
+}
+.dark-faq h3{
+    color:#bbbbbb;
 }
 @media (max-width:800px){
     .faq-page h3{
         margin :1rem;
         font-size: 1.5rem;
-        
-        color:#495464;
+    
     }
    
 
     
 }
+.dark-page{
+    background-color: black;
+  }

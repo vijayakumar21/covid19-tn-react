@@ -1,0 +1,26 @@
+
+@media ( min-width:961px){
+.bottom{
+    padding: 7.5rem 11rem;
+    text-align: center;
+}
+.dropdown-menu {
+    overflow-y:auto; 
+    max-height:50vh
+   }
+}
+
+@media ( max-width:960px){
+    .bottom{
+        padding: 2.2rem 1rem;
+        text-align: center;
+    }
+    .dropdown-cust{
+        padding-bottom:1rem;
+    }
+    .dropdown-menu {
+        overflow-y:auto; 
+        max-height:35vh
+       }
+   
+}

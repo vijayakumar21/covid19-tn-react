@@ -26,7 +26,7 @@
     text-align: center;
     font-size: 1.8rem;
     margin-bottom: 1.7rem;
-    color: #373a40;
+    color: #495464;
 }
 
 }
@@ -56,4 +56,9 @@
     margin-bottom: 1.8rem;
 }
     
+}
+
+.about-dark {
+    color:#bbbbbb;
+
 }

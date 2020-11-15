@@ -13,7 +13,7 @@ const SummaryGraph=props=>{
     
     else if(type ==="deaths") border='#CF91F2';
     
-    else  {border='#82E3A1'; console.log(type);};
+    else  {border='#82E3A1'; };
     
     // props.data.backgroundColor=bg;
     // props.data.borderColor:border

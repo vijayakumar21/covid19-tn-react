@@ -1,17 +1,20 @@
-import React ,{useState}from 'react'
+import React ,{useState,useContext}from 'react'
 import {Navbar,Nav,NavItem } from 'react-bootstrap';
 import {NavLink} from 'react-router-dom';
+import {ThemeVar} from '../../ThemeSelect.js'
 import './NavBar.css';
 const NavBar=(props)=>{
+  const [globalTheme, setGlobalTheme]=useContext(ThemeVar);
+  console.log(globalTheme);
   const [theme,setTheme]=useState("fas fa-sun");
   const handleThemeChange=(event)=>{
-    if(theme==="fas fa-sun"){
+    if(globalTheme==="light"){
     setTheme("fas fa-moon");
-    props.themeFunction('dark');
+    setGlobalTheme('dark');
     }
     else{
       setTheme("fas fa-sun");
-      props.themeFunction('dark');
+      setGlobalTheme('light');
     }
     console.log(theme);
   }
